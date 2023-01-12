@@ -1,0 +1,84 @@
+NAVIGATION
+
+GO BACK
+cd ..
+
+ADD PATH
+
+cd (FOLDER)
+
+CHANGE DRIVE
+
+(drive letter):
+
+
+CHECKING PROGRAM STATUS
+
+C:\Users\ssw>python --version (or py)
+
+
+
+
+INSTALLING PROGRAM
+
+
+C:\Users\ssw>python -m pip --version
+
+C:\Users\ssw>python -m pip install numpy
+
+C:\Users\ssw>python -m pip install pandas
+
+C:\Users\ssw>python -m pip install matplotlib
+
+https://www.youtube.com/watch?v=JB0kIqT1BEk
+
+
+
+SHIFT+CTRL+B (To Run)
+
+
+INSTALL JUPYTER NOTEBOOK
+
+- Select 'Add Anaconda to my PATH environment varaible'
+
+SET UP JUPYTER NOTEBOOK IN VISUAL STUDIO CODE (a virtual environment)
+
+1. Set up the interpretor we want visual studio code to use
+2. CTRL + Shift + P
+3. Open User Settings
+4. Python : Python Path
+5. C:\Users\ssw\Anaconda3\python.exe
+6. In bottom right hand corner- we can change the interpretor to 'Conda'
+7. To Test
+import os
+print ("current directory")
+print (os.getcwd())
+
+Python Select Interpretor (CTRL + Shift + P)
+
+CREATE NOTEBOOK
+1. Python Select Interpretor (CTRL + Shift + P)
+2. Create: New Jupyter Notebook
+3. Select the proper kernal- in top left (but set up above)
+
+4. CRTL+Enter (to run current cell)
+5. SHIFT + Enter (to run the current cell and advance to next
+6. You can drag cells around and also delete them
+
+
+GITHUB
+1. Do the pushes in VSC
+2. Go to GitHub and go to New (for new repository)
+3. Give Name
+4. Create Repository
+5. Copy the link (https://github.com/sswcode/DevelopmentRepo.git)
+6. View- Command Pallete (CTRL + Shift + P)
+7. Git add remote
+8. Add in repo link
+9. Add details
+10. Publish Branch
+
+HOW TO CLONE/FORK FROM GITHUB TO MY OWN
+
+- https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette
+- https://github.com/claudiaregio/data-science
